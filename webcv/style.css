@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.box-kiri{
+    
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: #8ea69b;
+
+    
+}
+.photo{
+    position: absolute;
+    top: 50px;
+    text-align: center; 
+    left: 80px;
+}
+.gambar{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.btn1{
+    width: 60%;
+    border-radius:12px ;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.btn1:hover{
+    background-color: gray;
+    color: white;
+    transition: 1s;
+}
+
+.box-kanan{
+    position: absolute;
+    left: 400px;
+}
+
+.top-bar{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.list-menu{
+    float: right;
+    padding-right: 50px;
+}
+
+.menu{
+    font-size: 1.1rem;
+    padding: 0 15px;
+}
+
+.title{
+    font-style: italic;
+    font-size: 1.2rem;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#profile{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#about{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#experience{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+#achievment{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+#contact{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+#footer{
+    padding: 200px;
+    text-align: center;
+}
